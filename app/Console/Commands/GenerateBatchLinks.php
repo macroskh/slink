@@ -13,7 +13,7 @@ class GenerateBatchLinks extends Command
      *
      * @var string
      */
-    protected $signature = 'shortlinks:pregenerate {count} {--batch=250} {--c|clear : Clean up before generate}';
+    protected $signature = 'shortlinks:pregenerate {count} {--c|clear : Clean up before generate}';
 
     /**
      * The console command description.
